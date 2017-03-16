@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="angular.min.js"></script>
+    <script src="customdir.js"></script>
+
+</head>
+<body ng-app="myapp">
+<script type="text/ng-template" id="sec-msg.html">
+    <strong>{{msg}}</strong>
+</script>
+<div ng-controller="myctrl">
+
+    <div sec-msg>
+    </div>
+    <sec-msg></sec-msg>
+</div>
+</body>
+</html>

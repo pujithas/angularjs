@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="angular.min.js"></script>
+    <script src="customservices.js"></script>
+
+</head>
+<body ng-controller="myctrl">
+<div>
+    value of a is {{a}}
+    <input type="text" ng-model="a">
+    value of b is {{b}}
+    <input type="text" ng-model="b">
+    <div>
+        sum={{c}}
+        <button ng-click="cal()"> Sum</button>
+
+    </div>
+</div>
+</body>
+</html>

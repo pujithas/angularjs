@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="angular.min.js"></script>
+    <script src="apply.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+<body ng-app="myapp">
+<div id="div1" ng-controller="myctrl">
+a=<input ng-model="a">
+<div>{{a}}</div>
+b<input ng-model="b">
+<div>{{b}}</div>
+<button ng-click="sum()">Sum</button>
+<button onclick="csum()">csum</button>
+<div>{{s}}</div>
+</div>
+</body>
+</html>
